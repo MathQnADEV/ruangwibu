@@ -48,13 +48,13 @@ export const newFeatures = [
 ];
 
 export const insights = [
-  {
-    imgUrl: '/wibuverse001.png',
-    title: 'Wibuverse, Jual Karya Tak Perlu Ribet!',
-    subtitle:
-        'Bagaimana jika kreator dapat menggunakan sebuah platform, di mana mereka dapat menjual karya mereka secara digital, alih-alih harus mencetaknya dalam bentuk fisik?',
-    link: 'https://www.risamedia.com/wibuverse-jual-karya-tak-perlu-ribet/',
-  },
+  // {
+  //   imgUrl: '/wibuverse001.png',
+  //   title: 'Wibuverse, Jual Karya Tak Perlu Ribet!',
+  //   subtitle:
+  //       'Bagaimana jika kreator dapat menggunakan sebuah platform, di mana mereka dapat menjual karya mereka secara digital, alih-alih harus mencetaknya dalam bentuk fisik?',
+  //   link: 'https://www.risamedia.com/wibuverse-jual-karya-tak-perlu-ribet/',
+  // },
   {
     imgUrl: '/animespring2023.jpg',
     title: 'Anime Spring 2023 Akan Jadi Musim Besar, Berikut Daftarnya!',
@@ -62,13 +62,13 @@ export const insights = [
         'Pada Jump Festa tahun 2023 yang digelar 17-18 Desember 2022, acara tersebut mengkonfirmasi jadwal rilis dari beberapa seri anime terlaris. Dan ternyata, Anime Spring 2023 akan menjadi musim yang luar biasa bagi fandom anime besar.',
     link: 'https://www.radiowebindo.com/film-drama/pr-806150770/anime-spring-2023-akan-jadi-musim-besar-berikut-daftarnya',
   },
-  {
-    imgUrl: '/chinsawwww.png',
-    title: '10 Anime Terbaik Dengan Rating Tertinggi 2022',
-    subtitle:
-        'Ada Banyak anime baru yang diproduksi dan rilis setiap tahunnya. Dan dalam artikel ini kami akan memilih hanya 10 anime yang terbaik',
-    link: 'https://anime.10terbaik.com/2013/08/10-anime-yang-wajib-di-tonton.html',
-  },
+  // {
+  //   imgUrl: '/chinsawwww.png',
+  //   title: '10 Anime Terbaik Dengan Rating Tertinggi 2022',
+  //   subtitle:
+  //       'Ada Banyak anime baru yang diproduksi dan rilis setiap tahunnya. Dan dalam artikel ini kami akan memilih hanya 10 anime yang terbaik',
+  //   link: 'https://anime.10terbaik.com/2013/08/10-anime-yang-wajib-di-tonton.html',
+  // },
   {
     imgUrl: '/MoveiMania.png',
     title: 'MathQnADEV MOVIE MANIA',
@@ -76,27 +76,27 @@ export const insights = [
         'Ini merupakan web Fullstack dengan menggunakan react dan API dari The Movie Database (TMDB). Mohon maaf jika belum responsive, soalnya belum sepenuhnya jadi sih',
     link: 'https://mathqna-movie-mania.vercel.app/',
   },
-  {
-    imgUrl: '/CetrekanLampu.png',
-    title: 'Cetrekan Lampu Cuy',
-    subtitle:
-        'Ini merupakan web frontend saja, karena hanya menggunakan HTML, CSS, Bootstrap, dan JS dasar',
-    link: 'https://cetrekan-lampu-rumah.netlify.app/',
-  },
-  {
-    imgUrl: '/generatepasswordcuy.png',
-    title: 'Password Generator',
-    subtitle:
-        'Website ini bertujuan untuk mengGenerate Password sesuai panjang karakter password yang diinginkan. Website ini menggunakan HTML, CSS, Bootstrap, dan JS dasar ( pakai map, math, dll )',
-    link: 'https://generate-passworddd.netlify.app/',
-  },
-  {
-    imgUrl: '/Loginfakee.png',
-    title: 'Login Fake Cuy',
-    subtitle:
-        'Website ini hanyalah login fake dan menyimpan data di local storage website',
-    link: 'https://loginfake.netlify.app/',
-  },
+  // {
+  //   imgUrl: '/CetrekanLampu.png',
+  //   title: 'Cetrekan Lampu Cuy',
+  //   subtitle:
+  //       'Ini merupakan web frontend saja, karena hanya menggunakan HTML, CSS, Bootstrap, dan JS dasar',
+  //   link: 'https://cetrekan-lampu-rumah.netlify.app/',
+  // },
+  // {
+  //   imgUrl: '/generatepasswordcuy.png',
+  //   title: 'Password Generator',
+  //   subtitle:
+  //       'Website ini bertujuan untuk mengGenerate Password sesuai panjang karakter password yang diinginkan. Website ini menggunakan HTML, CSS, Bootstrap, dan JS dasar ( pakai map, math, dll )',
+  //   link: 'https://generate-passworddd.netlify.app/',
+  // },
+  // {
+  //   imgUrl: '/Loginfakee.png',
+  //   title: 'Login Fake Cuy',
+  //   subtitle:
+  //       'Website ini hanyalah login fake dan menyimpan data di local storage website',
+  //   link: 'https://loginfake.netlify.app/',
+  // },
   {
     imgUrl: '/Portofoliosebelum.png',
     title: 'Portofolio yang Lama',
