@@ -1,4 +1,4 @@
- {
+{
   "name": "metaverse13",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.6",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
