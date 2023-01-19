@@ -6,13 +6,13 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { startingFeatures } from '../constants';
 
-const GetStarted = () => (
+const WIBU = () => (
   <section className={`${styles.paddings} relative z-10 `}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.1 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
@@ -20,7 +20,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/tailCSSJS.png"
+          src="/nontonBacaEventJEPUN.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -29,8 +29,8 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| My Skills Ehe" />
-        <TitleText title={<>Get My Skills with just a few clicks</>} />
+        <TypingText title="| How to be a WIBU.." />
+        <TitleText title={<>Ayo menjadi WIBU dalam hitungan detik</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps
@@ -45,4 +45,4 @@ const GetStarted = () => (
   </section>
 );
 
-export default GetStarted;
+export default WIBU;

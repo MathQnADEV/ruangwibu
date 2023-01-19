@@ -15,25 +15,20 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Who I Am" textStyles="text-center" />
+      <TypingText title="| About What is Wibu?" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] fotn-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">hello</span>, my name is
-        <span className="font-extrabold text-white"> Shaquille Rashaun</span>,
-        and I am a{' '}
+        <span className="font-extrabold text-white">Japanofilia</span> atau
+        <span className="font-extrabold text-white"> WIBU</span> adalah ungkapan
+        yang ditujukan kepada seseorang terutama orang-orang Barat yang menyukai{' '}
         <span className="font-extrabold text-white">
-          freelance Fullstack Developer
+          budaya populer dari Jepang.{' '}
         </span>
-        in Makassar. I'm more of an expert in{' '}
-        <span className="font-extrabold text-white"> Backend Developer</span>
-        . I don't have work experience yet but hopefully this field work
-        practice will add to my experience. I hope my career as a Fullstack
-        Developer or Backend Developercan be more proficient.
-        <span className="font-extrabold text-white">
-          {' '}And enjoy the Wibuverse of Madness
-        </span>
+        Kata <span className="font-extrabold text-white">weeaboo</span> sendiri
+        pertama kali digunakan dalam sebuah forum bernama 4chan untuk
+        menggantikan kata wapanese yang sudah diblokir oleh forum tersebut
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}

@@ -16,7 +16,7 @@ const Explore = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amout: 0.25 }}
+        viewport={{ once: false, amout: 0.1 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| The Best Waifu 2022" textStyles="text-center" />

@@ -6,7 +6,7 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { newFeatures } from '../constants';
 
-const WhatsNew = () => (
+const Skill = () => (
   <section className={`${styles.paddings} relative z-10 `}>
     <motion.div
       variants={staggerContainer}
@@ -19,8 +19,8 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| My Backend Skills" />
-        <TitleText title={<>This is My another skills Backend Ehe</>} />
+        <TypingText title="| Beberapa Skill WIBU" />
+        <TitleText title={<>Ini adalah beberapa skill WIBU wajib ada</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures
@@ -35,7 +35,7 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/nodeJSRESTMARIABARU.png"
+          src="/mentalcoy.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -44,4 +44,4 @@ const WhatsNew = () => (
   </section>
 );
 
-export default WhatsNew;
+export default Skill;

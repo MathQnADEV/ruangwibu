@@ -18,7 +18,7 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Wibuverse
+          Enter Ruang Wibu
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
           <img
@@ -27,7 +27,7 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Enter Wibuverse
+            Enter Ruang Wibu
           </span>
         </button>
       </div>
@@ -35,10 +35,10 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            Wibuverse
+            Ruang Wibu
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2022 - 2023 Wibuverse. All rights reserved.
+            Copyright © 2022 - 2023 Ruang Wibu. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (

@@ -27,23 +27,23 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'As you can see, this website is my own css skills',
-  'I use the css framework, namely Tailwind to make web deigns easier',
-  'My JS skills are pretty good for some parts and more skilled for the backend',
+  'Mengikuti dan menonton serial anime atau film animasi yang tidak bersambung.',
+  'Membaca komik Jepang, atau yang biasa disebut dengan MANGA',
+  'Mengikuti Event Jejepangan dimana acara yang bisa menjadi wadah dimana wibu-wibu berkumpul',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'Node JS and API',
+    title: 'The power of anime in my side',
     subtitle:
-        'I use Node JS as network server, API Backend, and fetch API',
+        'Kekuatan anime selalu menyertai para WIBU. Jadi jangan macam-macam dengan watashi',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'MySQL, MariaDB',
+    title: 'Kekuatan mental yang tinggi',
     subtitle:
-        'I use MySQL, more precisely mariaDB as warehousing for several applications that i make',
+        'WIBU nolep adalah sosok wibu yang memiliki kekuatan mental yang tinggi. Mampu menghadapi stress tingkat tinggi dikesehariannya',
   },
 ];
 

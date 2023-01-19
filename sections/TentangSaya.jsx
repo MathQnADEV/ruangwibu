@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
-const Feedback = () => (
+const TentangSaya = () => (
   <section className={`${styles.paddings} relative z-10 `}>
     <motion.div
       variants={staggerContainer}
@@ -23,14 +23,14 @@ const Feedback = () => (
             Shaquille Rashaun
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
-            Founder{' '}|{' '}Wibuverse
+            Founder{' '}|{' '}Ruang Wibu
           </p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[18px] text-[12px] sm:leading-[45px] leading-[39px] text-white">
           "With the development of today's
-          technology, Wibuverse is very usefull for
-          Wibu's find Waifus, or can be called web 3.0. by
-          using Wibuverse you can use it as you want
+          technology, Ruang Wibu is very usefull for
+          Wibu's find Skill WIBU by
+          using Ruang Wibu you can use it as you want
           "
         </p>
       </motion.div>
@@ -59,4 +59,4 @@ const Feedback = () => (
   </section>
 );
 
-export default Feedback;
+export default TentangSaya;
